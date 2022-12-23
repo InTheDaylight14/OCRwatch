@@ -16,7 +16,7 @@ def take_screenshot():
 
     # resize to 1920x1080
     image = Image.open(f"monitor-{monitor}.png")
-    image.thumbnail((1920, 1080), Image.ANTIALIAS)
+    # image.thumbnail((1920, 1080), Image.ANTIALIAS)
     image.save(f"monitor-{monitor}.png", "png")
 
     return f"monitor-{monitor}.png"
