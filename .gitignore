@@ -1,2 +1,17 @@
+.png
 config.ini
 dbg/*
+venv/
+dbg/
+allies.json
+enemies.json
+gray.jpg
+const.py
+hero.json
+latest.json
+log-all.csv
+log-total.csv
+match.json
+
+name.json
+__pycache__/
